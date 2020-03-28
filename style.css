@@ -1,0 +1,62 @@
+
+body{
+
+    background-image: url(az.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+
+
+.name{
+    height: 3em;
+    border-color: red;
+}
+.gender select{
+    margin-top: 1em;
+    height: 2.5em;
+    border-color: rgb(123, 211, 203);
+    background-color: rgb(241, 150, 134);
+}
+
+.selects{
+    height: 3em;
+    border-color: rgb(123, 211, 203);
+    background-color: rgb(241, 150, 134);
+}
+.measures{
+    width: 23em;
+    height: 4em;
+    border-color: red;
+}
+.opinion{
+    width: 23em;
+    height: 4em;
+    border-color: red;
+}
+.info{
+    width: 20em;
+    height: 3em;
+    border-color: red;
+}
+.number{
+    height: 3em;
+    border-color: red;
+}
+button{
+    width: 25em;
+    height: 3em;
+    border-radius: 1.5em;
+    border-color: rgb(123, 211, 203);
+    background-color:  rgb(241, 150, 134);;
+    -webkit-text-fill-color: black;
+}
+@media(min-width:800px){
+    .container{
+        position: relative;
+        right: 10em;
+    }
+   
+
+
+}
